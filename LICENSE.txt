@@ -1,10 +1,10 @@
 END USER LICENSE AGREEMENT (EULA)
-ADMDynAnlz
+DynaMD
 Version 2.0
 Effective Date: March 25, 2026
 
 1. License Grant
-The Licensor grants you a non-exclusive, non-transferable license to install and use ADMDynAnlz, including its distributed executables and accompanying user-facing files (the "Software"), solely for your internal, non-commercial research purposes.
+The Licensor grants you a non-exclusive, non-transferable license to install and use DynaMD, including its distributed executables and accompanying user-facing files (the "Software"), solely for your internal, non-commercial research purposes.
 
 2. Restrictions
 You may not:
@@ -14,7 +14,7 @@ You may not:
 - Present or publish results that materially rely on the Software without acknowledging and citing it as described in the repository citation information.
 
 3. Citation
-If the Software contributes to a publication, presentation, thesis, report, or other scholarly output, you must acknowledge and cite ADMDynAnlz using the citation information provided with the Software, including the `CITATION.md` file and associated DOI record.
+If the Software contributes to a publication, presentation, thesis, report, or other scholarly output, you must acknowledge and cite DynaMD using the citation information provided with the Software, including the `CITATION.md` file and associated DOI record.
 
 4. Ownership
 The Software, including executables, bundled assets, documentation, updates, and copied portions, remains the exclusive property of the Licensor. All rights not expressly granted are reserved.

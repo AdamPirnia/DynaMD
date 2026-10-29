@@ -1,7 +1,7 @@
 """
 Legacy notebook-oriented analysis helpers.
 
-This module intentionally stays minimal because the ADMDynAnlz software does not
+This module intentionally stays minimal because the DynaMD software does not
 import or rely on the old broad `adam_functions.py` utility collection. The
 previous catch-all helper module contained a large amount of dead code and many
 heavy optional dependencies that were not part of the active application.

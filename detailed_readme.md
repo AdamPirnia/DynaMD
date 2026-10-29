@@ -1,6 +1,6 @@
-# ADMDynAnlz Scientific README
+# DynaMD Scientific README
 
-ADMDynAnlz is a workflow generator for molecular-dynamics post-processing. The GUI collects file patterns, physical parameters, precision choices, and execution settings, then writes Python/VMD workflows for trajectory-derived observables. The practical controls are described in the [manual](Manual.md); this document summarizes the scientific definitions used by the software and points each concept back to its manual section.
+DynaMD is a workflow generator for molecular-dynamics post-processing. The GUI collects file patterns, physical parameters, precision choices, and execution settings, then writes Python/VMD workflows for trajectory-derived observables. The practical controls are described in the [manual](Manual.md); this document summarizes the scientific definitions used by the software and points each concept back to its manual section.
 
 ## Shared Conventions
 

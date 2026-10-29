@@ -132,7 +132,7 @@ If you prefer to configure everything yourself, follow the manual steps below.
 
 ## Python Environment Setup
 
-ADMDynAnlz uses Python features that require Python 3.10 or newer. The recommended setup is a Python 3.12 environment named `admdyn`.
+DynaMD uses Python features that require Python 3.10 or newer. The recommended setup is a Python 3.12 environment named `admdyn`.
 
 ### macOS and Linux
 
@@ -156,7 +156,7 @@ What each command does:
 - `python -m pip install --upgrade pip setuptools wheel`
   updates the Python packaging tools inside the active environment
 - `python -m pip install ...`
-  installs the packages needed by ADMDynAnlz and by the generated analysis scripts
+  installs the packages needed by DynaMD and by the generated analysis scripts
 
 Optional verification:
 

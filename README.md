@@ -1,11 +1,11 @@
-# ADMDynAnlz
+# DynaMD
 
 [<img src="app_images/button_prep_run.svg" alt="Prep. Run" width="220">](Run_Prep.md) Download, setup, and launch steps.<br>
 [<img src="app_images/button_user_manual.svg" alt="User Manual" width="220">](Manual.md) Module-by-module usage guide.<br>
 [<img src="app_images/button_calc_details.svg" alt="Calc. Details" width="220">](detailed_readme.md) Scientific definitions, formulas, and calculation conventions.<br>
 [<img src="app_images/button_citation.svg" alt="Citation" width="220">](CITATION.md) Reference information for citing the software.
 
-ADMDynAnlz is a graphical workflow tool for post-processing molecular dynamics trajectories and generating analysis-ready workflows for transport and dynamical observables.
+DynaMD is a graphical workflow tool for post-processing molecular dynamics trajectories and generating analysis-ready workflows for transport and dynamical observables.
 
 The current distributed application is the Qt GUI.
 
@@ -24,7 +24,7 @@ A dedicated preparation and download guide is available in [Run_Prep.md](Run_Pre
 
 ## What the Software Does
 
-ADMDynAnlz is designed to help users:
+DynaMD is designed to help users:
 
 - preprocess large molecular dynamics trajectories
 - organize analysis inputs through a GUI instead of manual script editing
@@ -299,7 +299,7 @@ Typical outputs:
 
 ## Citation
 
-Per the terms described in `LICENSE.txt`, users of ADMDynAnlz should cite the software when it contributes to published or presented work.
+Per the terms described in `LICENSE.txt`, users of DynaMD should cite the software when it contributes to published or presented work.
 
 Citation information is provided in [CITATION.md](CITATION.md).
 

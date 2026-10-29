@@ -1,13 +1,13 @@
 # Citation
 
-Per the terms described in `LICENSE.txt`, users of ADMDynAnlz should cite the software when it contributes to published or presented work.
+Per the terms described in `LICENSE.txt`, users of DynaMD should cite the software when it contributes to published or presented work.
 
 ## BibTeX
 
 ```bibtex
 @software{pirnia_2026_19229264,
   author       = {Pirnia, Mohammad Mehdi},
-  title        = {AdamPirnia/ADMDynAnlz: ADMDynAnlz, MD Dynamics
+  title        = {AdamPirnia/ADMDynAnlz: DynaMD, MD Dynamics
                    Analysis software
                   },
   month        = mar,

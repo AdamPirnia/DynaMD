@@ -1,8 +1,8 @@
-# ADMDynAnlz User Manual
+# DynaMD User Manual
 
 This manual explains what each module does, what each section is for, what to enter in each input field, and how the main options affect the generated workflow.
 
-The Qt interface is now the maintained ADMDynAnlz GUI.
+The Qt interface is now the maintained DynaMD GUI.
 
 ## General Concepts
 
@@ -14,7 +14,7 @@ The Qt interface is now the maintained ADMDynAnlz GUI.
 
 Many fields expect a file pattern rather than a single file name.
 
-When a field asks for a `Pattern`, it expects a full path or a full `path + filename`, depending on the section. For numeric data files generated or reused by ADMDynAnlz, the safest rule is to provide the full `path + filename + extension`.
+When a field asks for a `Pattern`, it expects a full path or a full `path + filename`, depending on the section. For numeric data files generated or reused by DynaMD, the safest rule is to provide the full `path + filename + extension`.
 
 Paths containing spaces, parentheses, and similar non-regular characters are supported. It is still best to enter the exact full path carefully so that missing-file validation can catch real typos.
 
@@ -114,7 +114,7 @@ If `vmd` works in your terminal but the generated workflow says it cannot find V
 
 ### Precision
 
-Each relevant section has a `Precision` button near the `Skip` checkbox. The current setting is always shown next to that button. This applies only to ADMDynAnlz numeric data files, not to external structure or trajectory files such as `PSF`, `DCD`, `VELDCD`, or `XSC`.
+Each relevant section has a `Precision` button near the `Skip` checkbox. The current setting is always shown next to that button. This applies only to DynaMD numeric data files, not to external structure or trajectory files such as `PSF`, `DCD`, `VELDCD`, or `XSC`.
 
 Available choices:
 

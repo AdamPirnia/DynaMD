@@ -16,7 +16,7 @@ PIP_PACKAGES=(
 
 print_header() {
   echo "========================================"
-  echo "ADMDynAnlz Runtime Configurator"
+  echo "DynaMD Runtime Configurator"
   echo "========================================"
   echo
   echo "Select the executable you downloaded:"
@@ -161,7 +161,7 @@ open_activated_shell() {
   cat > "$rcfile" <<EOF
 $activate_cmd
 echo
-echo "ADMDynAnlz environment is active."
+echo "DynaMD environment is active."
 echo "Run the software with the command shown above."
 echo "When you are done, type: deactivate"
 EOF
