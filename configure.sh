@@ -104,7 +104,7 @@ verify_packages() {
 }
 
 prepare_linux() {
-  local exec_name="ADMDynAnlz_Linux"
+  local exec_name="DynaMD_Linux"
   [[ -f "$exec_name" ]] || { echo "Executable not found: $exec_name" >&2; exit 1; }
   chmod +x "$exec_name"
   echo
@@ -114,7 +114,7 @@ prepare_linux() {
 }
 
 prepare_mac_arm() {
-  local exec_name="ADMDynAnlz_mac_arm64"
+  local exec_name="DynaMD_mac_arm64"
   [[ -f "$exec_name" ]] || { echo "Executable not found: $exec_name" >&2; exit 1; }
   chmod +x "$exec_name"
   xattr -d com.apple.quarantine "$exec_name" 2>/dev/null || true
@@ -125,7 +125,7 @@ prepare_mac_arm() {
 }
 
 prepare_mac_intel() {
-  local exec_name="ADMDynAnlz_mac_x86_64"
+  local exec_name="DynaMD_mac_x86_64"
   [[ -f "$exec_name" ]] || { echo "Executable not found: $exec_name" >&2; exit 1; }
   chmod +x "$exec_name"
   xattr -d com.apple.quarantine "$exec_name" 2>/dev/null || true
@@ -136,7 +136,7 @@ prepare_mac_intel() {
 }
 
 prepare_windows() {
-  local exec_name="ADMDynAnlz_Windows.exe"
+  local exec_name="DynaMD_Windows.exe"
   [[ -f "$exec_name" ]] || { echo "Executable not found: $exec_name" >&2; exit 1; }
   if command -v powershell.exe >/dev/null 2>&1; then
     powershell.exe -NoProfile -Command "Unblock-File '.\\${exec_name}'" >/dev/null 2>&1 || true

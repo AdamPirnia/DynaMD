@@ -7,7 +7,7 @@ Per the terms described in `LICENSE.txt`, users of DynaMD should cite the softwa
 ```bibtex
 @software{pirnia_2026_19229264,
   author       = {Pirnia, Mohammad Mehdi},
-  title        = {AdamPirnia/ADMDynAnlz: DynaMD, MD Dynamics
+  title        = {AdamPirnia/DynaMD: DynaMD, MD Dynamics
                    Analysis software
                   },
   month        = mar,

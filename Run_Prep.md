@@ -34,24 +34,24 @@ You need to download two different things from this project:
 
 Choose the executable that matches your system:
 
-- Linux: `ADMDynAnlz_Linux`
-- macOS Apple Silicon: `ADMDynAnlz_mac_arm64`
-- macOS Intel: `ADMDynAnlz_mac_x86_64`
-- Windows: `ADMDynAnlz_Windows.exe`
+- Linux: `DynaMD_Linux`
+- macOS Apple Silicon: `DynaMD_mac_arm64`
+- macOS Intel: `DynaMD_mac_x86_64`
+- Windows: `DynaMD_Windows.exe`
 
 Repository page:
 
-- `https://github.com/AdamPirnia/ADMDynAnlz`
+- `https://github.com/AdamPirnia/DynaMD`
 
 Releases page:
 
-- `https://github.com/AdamPirnia/ADMDynAnlz/releases`
+- `https://github.com/AdamPirnia/DynaMD/releases`
 
 ### Web browser
 
 To download the repository source code in a browser:
 
-1. Open `https://github.com/AdamPirnia/ADMDynAnlz`
+1. Open `https://github.com/AdamPirnia/DynaMD`
 2. Click `Code`
 3. Choose either:
    - `Download ZIP` to download the repository as an archive
@@ -59,7 +59,7 @@ To download the repository source code in a browser:
 
 To download a prebuilt executable in a browser:
 
-1. Open `https://github.com/AdamPirnia/ADMDynAnlz/releases`
+1. Open `https://github.com/AdamPirnia/DynaMD/releases`
 2. Open the latest release, or another release if you need a specific version
 3. In the `Assets` section, download the file for your operating system
 
@@ -68,39 +68,39 @@ To download a prebuilt executable in a browser:
 To download the repository source code with Git:
 
 ```bash
-git clone https://github.com/AdamPirnia/ADMDynAnlz.git
-cd ADMDynAnlz
+git clone https://github.com/AdamPirnia/DynaMD.git
+cd DynaMD
 ```
 
 If you prefer GitHub CLI, you can also clone with:
 
 ```bash
-gh repo clone AdamPirnia/ADMDynAnlz
-cd ADMDynAnlz
+gh repo clone AdamPirnia/DynaMD
+cd DynaMD
 ```
 
 To download a release executable with GitHub CLI:
 
 ```bash
-gh release download --repo AdamPirnia/ADMDynAnlz --pattern "ADMDynAnlz_Linux"
+gh release download --repo AdamPirnia/DynaMD --pattern "DynaMD_Linux"
 ```
 
-Replace `ADMDynAnlz_Linux` with the file you actually want:
+Replace `DynaMD_Linux` with the file you actually want:
 
-- `ADMDynAnlz_mac_arm64`
-- `ADMDynAnlz_mac_x86_64`
-- `ADMDynAnlz_Windows.exe`
+- `DynaMD_mac_arm64`
+- `DynaMD_mac_x86_64`
+- `DynaMD_Windows.exe`
 
 If you do not use GitHub CLI, you can download directly with `curl`. Replace `TAG_NAME` with the release tag you want, such as `v1.0.0`, and replace the filename with the correct asset name:
 
 ```bash
-curl -LO https://github.com/AdamPirnia/ADMDynAnlz/releases/download/TAG_NAME/ADMDynAnlz_Linux
+curl -LO https://github.com/AdamPirnia/DynaMD/releases/download/TAG_NAME/DynaMD_Linux
 ```
 
 Equivalent `wget` example:
 
 ```bash
-wget https://github.com/AdamPirnia/ADMDynAnlz/releases/download/TAG_NAME/ADMDynAnlz_Linux
+wget https://github.com/AdamPirnia/DynaMD/releases/download/TAG_NAME/DynaMD_Linux
 ```
 
 ## Setup and Running
@@ -214,15 +214,15 @@ After preparing the Python environment, run the downloaded GUI executable that m
 If needed, make the executable runnable and launch it from a terminal:
 
 ```bash
-chmod +x ADMDynAnlz_Linux
-./ADMDynAnlz_Linux
+chmod +x DynaMD_Linux
+./DynaMD_Linux
 ```
 
 What these commands do:
 
-- `chmod +x ADMDynAnlz_Linux`
+- `chmod +x DynaMD_Linux`
   adds the executable permission bit so Linux can launch the file directly
-- `./ADMDynAnlz_Linux`
+- `./DynaMD_Linux`
   launches the GUI from the current folder
 
 On Linux, double-click launching can also work when the file is marked executable and the desktop environment allows launching executable files directly.
@@ -232,18 +232,18 @@ On Linux, double-click launching can also work when the file is marked executabl
 If you downloaded the Apple Silicon build, run:
 
 ```bash
-chmod +x ADMDynAnlz_mac_arm64
-xattr -d com.apple.quarantine ADMDynAnlz_mac_arm64 2>/dev/null || true
-./ADMDynAnlz_mac_arm64
+chmod +x DynaMD_mac_arm64
+xattr -d com.apple.quarantine DynaMD_mac_arm64 2>/dev/null || true
+./DynaMD_mac_arm64
 ```
 
 What these commands do:
 
-- `chmod +x ADMDynAnlz_mac_arm64`
+- `chmod +x DynaMD_mac_arm64`
   makes the file runnable
-- `xattr -d com.apple.quarantine ADMDynAnlz_mac_arm64 2>/dev/null || true`
+- `xattr -d com.apple.quarantine DynaMD_mac_arm64 2>/dev/null || true`
   removes the macOS quarantine flag if it exists, which helps avoid Gatekeeper blocking a downloaded executable
-- `./ADMDynAnlz_mac_arm64`
+- `./DynaMD_mac_arm64`
   launches the Apple Silicon build
 
 ### macOS Intel
@@ -251,18 +251,18 @@ What these commands do:
 If you downloaded the Intel build, run:
 
 ```bash
-chmod +x ADMDynAnlz_mac_x86_64
-xattr -d com.apple.quarantine ADMDynAnlz_mac_x86_64 2>/dev/null || true
-./ADMDynAnlz_mac_x86_64
+chmod +x DynaMD_mac_x86_64
+xattr -d com.apple.quarantine DynaMD_mac_x86_64 2>/dev/null || true
+./DynaMD_mac_x86_64
 ```
 
 What these commands do:
 
-- `chmod +x ADMDynAnlz_mac_x86_64`
+- `chmod +x DynaMD_mac_x86_64`
   makes the file runnable
-- `xattr -d com.apple.quarantine ADMDynAnlz_mac_x86_64 2>/dev/null || true`
+- `xattr -d com.apple.quarantine DynaMD_mac_x86_64 2>/dev/null || true`
   removes the quarantine flag if present
-- `./ADMDynAnlz_mac_x86_64`
+- `./DynaMD_mac_x86_64`
   launches the Intel build
 
 ### Windows
@@ -272,15 +272,15 @@ In many cases you can run the Windows executable directly.
 If Windows marks the file as downloaded from the internet, open PowerShell in the download folder and run:
 
 ```powershell
-Unblock-File .\ADMDynAnlz_Windows.exe
-.\ADMDynAnlz_Windows.exe
+Unblock-File .\DynaMD_Windows.exe
+.\DynaMD_Windows.exe
 ```
 
 What these commands do:
 
-- `Unblock-File .\ADMDynAnlz_Windows.exe`
+- `Unblock-File .\DynaMD_Windows.exe`
   removes the Windows download block marker if one is present
-- `.\ADMDynAnlz_Windows.exe`
+- `.\DynaMD_Windows.exe`
   launches the executable from the current directory
 
 ## Practical note about generated analysis scripts
