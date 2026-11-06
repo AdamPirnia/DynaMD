@@ -22,6 +22,10 @@ The application currently provides seven GUI modules:
 Detailed section-by-section instructions are available in [Manual.md](Manual.md).
 A dedicated preparation and download guide is available in [Run_Prep.md](Run_Prep.md).
 
+## Supported Platforms
+
+The Linux application has been tested on **Ubuntu 24.04 LTS and Ubuntu 26.04 LTS**. It is built on a recent Linux system, so older distributions such as Ubuntu 22.04 are not supported.
+
 ## What the Software Does
 
 DynaMD is designed to help users:

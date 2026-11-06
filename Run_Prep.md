@@ -211,6 +211,8 @@ After preparing the Python environment, run the downloaded GUI executable that m
 
 ### Linux
 
+The Linux executable has been tested on Ubuntu 24.04 LTS and Ubuntu 26.04 LTS.
+
 If needed, make the executable runnable and launch it from a terminal:
 
 ```bash
